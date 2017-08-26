@@ -1,4 +1,4 @@
-alias: Jarvis Weather
+alias: Hailie Weather
 sequence:
   - service: tts.google_say
     data_template:
