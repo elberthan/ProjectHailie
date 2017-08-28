@@ -3,4 +3,6 @@ sequence:
   - service: tts.google_say
     data:
       entity_id: media_player.computer_speaker
-      message: I, Initializing Sanctum Protocol. Welcome Home. 
+      message: I, Initializing Sanctum Protocol. Welcome Home.
+  - service: ifttt.trigger
+    data: {"event":"HATrigger"}

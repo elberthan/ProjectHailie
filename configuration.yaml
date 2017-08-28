@@ -28,6 +28,14 @@ media_player:
   - platform: vlc
     name: computer_speaker
 
+#media_player:
+  #- platform: webostv
+    #host: 192.168.0.10
+    #mac: C8:08:E9:99:99:1A
+    #name: Living Room TV
+    #timeout: 5
+    #filename: webostv.conf
+
 ifttt:
   key: IFTTT-MAKER-KEY
 
